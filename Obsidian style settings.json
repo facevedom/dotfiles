@@ -1,0 +1,18 @@
+{
+  "minimal-advanced@@styled-scrollbars": true,
+  "minimal-advanced@@cursor": "default",
+  "minimal-advanced@@font-ui-smaller": 12,
+  "minimal-style@@h1-color@@dark": "#81C38E",
+  "minimal-style@@h1-color@@light": "#60946B",
+  "minimal-style@@inline-title-size": "1.3em",
+  "minimal-style@@base@@light": "#FFFFFF",
+  "minimal-style@@bg1@@dark": "#101A17",
+  "minimal-style@@bg2@@dark": "#182622",
+  "minimal-style@@tx1@@dark": "#E0D4B6",
+  "minimal-style@@ax1@@dark": "#85C58E",
+  "minimal-style@@ui1@@dark": "#85C58E",
+  "minimal-style@@title-color@@light": "#85C58E",
+  "minimal-style@@title-color@@dark": "#85C58E",
+  "minimal-style@@titlebar-text-color-focused@@dark": "#85C58E",
+  "minimal-style@@frame-background@@dark": "#182622"
+}
