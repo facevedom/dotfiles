@@ -1,4 +1,4 @@
-sudo apt install curl
+sudo apt install curl -y
 
 # setup zsh
 sudo apt install zsh -y
