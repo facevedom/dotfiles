@@ -1,0 +1,135 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+    "keybindings": 
+    [
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "AlienBlood",
+            "cursorShape": "underscore",
+            "font": 
+            {
+                "face": "MesloLGS NF",
+                "size": 11
+            }
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "cursorShape": "underscore",
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "face": "MesloLGS NF",
+                    "size": 10
+                },
+                "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+                "hidden": false,
+                "name": "Debian",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#131A17",
+            "black": "#000000",
+            "blue": "#2F6A7F",
+            "brightBlack": "#3C4812",
+            "brightBlue": "#00AAE0",
+            "brightCyan": "#00E0C4",
+            "brightGreen": "#18E000",
+            "brightPurple": "#0058E0",
+            "brightRed": "#E08009",
+            "brightWhite": "#73FA91",
+            "brightYellow": "#BDE000",
+            "cursorColor": "#73FA91",
+            "cyan": "#327F77",
+            "foreground": "#637D75",
+            "green": "#85C58E",
+            "name": "AlienBlood",
+            "purple": "#47587F",
+            "red": "#7F2B27",
+            "selectionBackground": "#1D4125",
+            "white": "#647D75",
+            "yellow": "#717F24"
+        }
+    ],
+    "theme": "system",
+    "themes": []
+}
